@@ -1,0 +1,50 @@
+{
+  "name": "gulp-less-jade",
+  "version": "1.0.0",
+  "description": "Build landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeSTaM/gulp-less-jade.git"
+  },
+  "keywords": [
+    "gulp",
+    "less",
+    "jade",
+    "build",
+    "fontello"
+  ],
+  "author": "GeSTaM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeSTaM/gulp-less-jade/issues"
+  },
+  "homepage": "https://github.com/GeSTaM/gulp-less-jade#readme",
+  "devDependencies": {
+    "gulp-live-server": "0.0.29",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.6",
+    "node-notifier": "^4.6.0"
+  },
+  "dependencies": {
+    "rimraf": "latest",
+    "bootstrap-less": "^3.3.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-fontello": "^0.4.5",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-uglify": "^1.1.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-util": "^3.0.7",
+    "gulp-jshint": "^1.9.2",
+    "gulp-rename": "latest",
+    "jshint-stylish": "^1.0.0",
+    "run-sequence": "latest"
+  }
+}
